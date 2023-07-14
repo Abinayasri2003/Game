@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap');
+body{
+
+    background-color:gold;
+    font-family: 'Courier New', Courier, monospace;
+    }
+    
+    .container{
+        background-color:blue;
+        text-align: center;
+        color: white;
+        display: flex;
+        font-size: 24px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+        padding: 0 20px;
+    }
+    
+    .logo{
+    font-size: 5em;
+    color: green;
+    text-shadow: -5px -5px 0 white,
+    2px -2px 0 white,
+    -2px 2px 0 white,
+    2px 2px 0 white;
+    
+    }
+    
+    
+    .button{
+    background-color:greenyellow ;
+    color: white;
+    height: 50px;
+    width: 140px;
+    font-size: 1em;
+    text-align: center;
+    cursor: pointer;
+    padding: 10px 15px;
+    font-weight: 800;
+    }
+    .button:hover{
+        background-color:red;
+    }
+    input{
+        width: 300px;
+        height: 3em;
+        text-align: center;
+        margin: 30px;
+        font-size: 1em;
+    }
+    
+    .input-container{
+    display: flex;
+    text-align: center;
+    
+    flex-wrap: wrap;
+    }
+    h1{
+        font-size: 2em;
+    }
+    
+    #message{
+        display: none;
+        color: brown;
+        font-size: 2em;
+        text-align: center;
+        padding: 5px 15px;
+        border-radius: 5px;
+    }
+    
+    #lives{
+        font-size: 50px;
+    }
+   
